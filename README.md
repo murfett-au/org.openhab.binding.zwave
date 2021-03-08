@@ -8,7 +8,6 @@ A wide range of devices are supported from lights, switches and sensors to smoke
 
 The binding uses a standard Z-Wave serial stick to communicate with the Z-Wave devices. There are many sticks available, and they all support the same interface so the binding does not distinguish between them.
 
-
 ## Supported Things
 
 The ZWave binding provides support for a large number of devices (currently 802 devices from 114 manufacturers).
@@ -17,7 +16,7 @@ See the [full list of supported things](doc/things.md).
 
 ### ZWave Serial Adapter
 
-Before the binding can be used, a serial adapter must be added. This needs to be done manually. Select `Serial ZStick`, and enter the serial port.
+Before the binding can be used, a serial adapter must be added. To add a serial adapter in OpenHAB3, visit *Things* in the GUI Settings menu, and choose + to add a new 'Thing'. Choose 'Z-Wave Binding' from the 'Choose Binding' menu. Then choose your Z-Wave device from the 'Add a new Thing: zwave' menu, scroll down to 'Port Configuration' and enter the serial port the new Z-Wave device is using (which depends on the operating system running openHAB).
 
 
 ## Discovery
